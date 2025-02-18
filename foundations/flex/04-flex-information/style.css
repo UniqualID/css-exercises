@@ -15,7 +15,7 @@ img {
 /* do not edit this footer */
 .footer {
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   left: 0;
   right: 0;
   height: 52px;
@@ -23,4 +23,25 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.vertical-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px
+}
+
+.items {
+	display: flex;
+	justify-content: center;
+	gap: 52px
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	align-items: center;
+	text-align: center;
 }
